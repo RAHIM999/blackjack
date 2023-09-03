@@ -1,0 +1,64 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-color: rgb(84, 243, 81);
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: white;
+    width: 200px;
+    background: black;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 3ms;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+@media(max-width:992px){
+    .container{
+        align-items: center;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 100px;
+margin-top: 30px; }
+p{
+    font-size: 70px;
+}
+button{
+    width: 300px;
+    font-size: 35px;
+    padding: 30px 25px;
+    border-radius: 20px;
+}
+}
+@media(max-width:768px){
+
+}
+@media(max-width:600px){
