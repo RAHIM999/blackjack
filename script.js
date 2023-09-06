@@ -63,3 +63,11 @@ function newCard() {
         renderGame()        
     }
 }
+function playAgain(){
+    if(isAlive===false || hasBlackJack===true){
+        let cards= ""
+        let sum = ""
+        cardsEl.textContent="Cards: "
+        sumEl.textContent="Sum: "
+    }
+}
